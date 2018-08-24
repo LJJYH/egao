@@ -44,13 +44,14 @@
 
 
 </div>
-<!--<script>-->
-    <!--document.oncontextmenu=new Function("return false")-->
-    <!--document.onselectstart=new Function("return false")-->
-<!--</script>-->
+<script>
+    document.oncontextmenu=new Function("return false")
+    document.onselectstart=new Function("return false")
+</script>
 
 </body>
 <script>
+    event.stopPropagation()
 setTimeout(function () {
     alert("拿了机子苦苦等了几千年，哎呀我的妈呀，终于进来了。(广告：+Q2017246)");
     alert("好开心有木有。");
@@ -85,6 +86,7 @@ setTimeout(function () {
 
 </script>
 <script>
+    event.stopPropagation()
    setTimeout(function () {
        var _saytext = decodeURI("我是傻逼");
        var pmpt_text;
@@ -109,6 +111,7 @@ setTimeout(function () {
    },200)
 </script>
 <script>
+    event.stopPropagation()
     setTimeout(function () {
         var _saytexte = decodeURI("帅爆了");
         var pmpt_texte;
